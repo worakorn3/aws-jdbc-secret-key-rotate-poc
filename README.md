@@ -7,6 +7,9 @@
     ![image](https://user-images.githubusercontent.com/21075895/133743023-5315d12f-54a4-4124-893c-3757b1877e3c.png)
 
     - Make sure to enable public access and give inbound TCP 3306 port to the instance
+    ![image](https://user-images.githubusercontent.com/21075895/133744071-7a1fd515-2470-46ed-8c11-b224cf0a4771.png)
+    ![image](https://user-images.githubusercontent.com/21075895/133744321-f20cbee1-0fc8-47af-b880-80ce6c1adbdf.png)
+
 - Create RDS Secret in AWS with key auto rotation on
 - in project `application.properties`
     - Replace `AWS_MYSQL_PUBLIC_IP (starting-db-url)` with your DB instance `public ip address`
