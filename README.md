@@ -6,9 +6,9 @@
     - Give the default starting table name
     - Make sure to enable public access and give inbound TCP 3306 port to the instance
 - Create RDS Secret in AWS with key auto rotation on
-- in prject `application.properties`
+- in project `application.properties`
     - Replace `AWS_MYSQL_PUBLIC_IP (starting-db-url)` with your DB instance `public ip address`
-    - Replace `MY_TABLE (starting-db)` with `default starting table name`
+    - Replace `MY_DB (starting-db)` with `default starting table name`
     - Replace `MY_SECRET_NAME (my-secret)` with your `secret name` created earlier
 - start project, the flyway will start migrating test data
 ## Start testing
