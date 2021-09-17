@@ -4,6 +4,8 @@
 - Assume your machine already setup AWS credentials
 - Create RDS MySQL DB in AWS (free tier will do)
     - Give the default starting table name
+    ![image](https://user-images.githubusercontent.com/21075895/133743023-5315d12f-54a4-4124-893c-3757b1877e3c.png)
+
     - Make sure to enable public access and give inbound TCP 3306 port to the instance
 - Create RDS Secret in AWS with key auto rotation on
 - in project `application.properties`
